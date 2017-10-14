@@ -1,0 +1,83 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url(../images/background.jpg);
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#name {
+	width: 100%;
+	background-color: goldenrod;
+	color: white;
+	padding: 5px;
+	font-size: 2.5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#body {
+	margin-top: 10px;
+	background-color: antiquewhite;
+	padding: 5px;
+	width: 100%;
+	color: green;
+	font-weight: 700;
+	padding-bottom: 50px;
+	font-size: 1.1em;
+}
+
+#target {
+	margin-top: 10px;
+	height: 120px;
+	background-color: darkseagreen;
+	font-size: 3em;
+	width: 100%;
+	color: purple;
+	padding: 2px;
+}
+
+.score {
+	margin-top: 10px;
+	background-color: turquoise;
+	padding: 2px;
+	height: 120px;
+	width: 100%;
+}
+
+.buttons {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.pic {
+	height: auto;
+}
+
+#scoreHead {
+	background-color: cadetblue;
+	width: 100%;
+	color: white;
+	height: 20px;
+	padding: 0 2px;
+}
+
+#totalScore {
+	margin-top: 10px;
+	height: 120px;
+	background-color: cadetblue;
+	font-size: 3em;
+	width: 100%;
+	color: white;
+	padding: 2px;
+}
+
+p {
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+}

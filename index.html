@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CrystalsCollector!</title>
+   	<link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    			crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div id="name">
+					Crystals Collector!
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div id="body">
+						<p>You will be given a random number at the start of the game. There are four crystals below, by clicking on one you will add a specific amount of points to your total score. You win the game by matching your total score to the number given.</p>
+
+						<p>The value of each crystal is hidden from you until you click on it. Each time the game starts, the game will change the values of each crysta</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div id="target">				
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="score">
+					<p>Wins: <span id="wins"></span></p>
+					<p>Losses: <span id="losses"></span></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-8 col-xs-12">
+				<div class="buttons">
+					<button>
+						<img src="assets/images/if_Amethyst_127306.png" alt="gem1" class="pic" value=0>
+					</button>
+					<button>
+						<img src="assets/images/if_Aquamarine_127303.png" alt="gem1" class="pic" value=1>
+					</button>
+					<button>
+						<img src="assets/images/if_Emerald_127302.png" alt="gem1" class="pic" value=2>
+					</button>
+					<button>
+						<img src="assets/images/if_Zircon_127304.png" alt="gem1" class="pic" value=3>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div id="scoreHead">
+					<h4>Your total score is:</h4>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div id="totalScore">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
